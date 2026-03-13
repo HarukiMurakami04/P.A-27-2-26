@@ -1,0 +1,268 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP/NSjN3784i3iZjBahAxRQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HarukiMurakami04/P.A-27-2-26/blob/main/Aula%2013/03\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "tqK07Bw7vUoU"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Escrever um programa que converte a temperatura de Celsius para Fahrenheit.\n",
+        "\n",
+        "F= (C x 9/5) + 32\n",
+        "\n",
+        "#Entrada\n",
+        "Temperatura em Celsius\n",
+        "\n",
+        "#Processamento\n",
+        "Converter Celsius para Fahrenheit\n",
+        "\n",
+        "#Saída\n",
+        "Mostrar a temperatura em Fahrenheit\n"
+      ],
+      "metadata": {
+        "id": "kUpuh2pdvxVn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Calcular a área do retangulo\n",
+        "\n",
+        "Comprimento = float(input(\"Digite o valor do comprimento:\"))\n",
+        "Altura = float(input(\"Digite o valor da altura:\"))\n",
+        "\n",
+        "#processamento\n",
+        "\n",
+        "area = Comprimento * Altura\n",
+        "\n",
+        "#Saída\n",
+        "\n",
+        "print (f\"A área do retangulo é igual : {area}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aFh18bBAwgAc",
+        "outputId": "1450540f-1a5c-4beb-b1dd-90fc0ecfa520"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor do comprimento:3\n",
+            "Digite o valor da altura:5\n",
+            "A área do retangulo é igual : 15.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Cadastro de usuário simples\n",
+        "\n",
+        "#Entrada\n",
+        "nome = str (input (\"Digite seu nome: \"))\n",
+        "idade = int(input(\"Digite sua idade: \"))\n",
+        "altura = float(input(\"Digite sua altura: \"))\n",
+        "solteiro = True\n",
+        "\n",
+        "#Saída\n",
+        "\n",
+        "print(f\"Olá {nome}\")\n",
+        "print(f\"você tem {idade} anos e {altura} metros de altura!\")\n",
+        "print(f\"Solteiro: {solteiro}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F_ICjo_LznuM",
+        "outputId": "36a2a57d-7286-4967-83cf-34d7965529df"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite seu nome:Haruki\n",
+            "Digite sua idade:14\n",
+            "Digite sua altura:1.75\n",
+            "Olá Haruki\n",
+            "você tem 14 anos e 1.75 metros de altura!\n",
+            "Solteiro True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Entrada\n",
+        "celsius = float(input(\"Digite quantos graus está fazendo:\"))\n",
+        "\n",
+        "#Processamento\n",
+        "Resultado = celsius * 9/5 + 32\n",
+        "\n",
+        "#Saída\n",
+        "print(f\"Temperatura atual em Fahrenheit:{Resultado} \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 356
+        },
+        "id": "QDjB4gfX2Y5U",
+        "outputId": "37015ef9-11f3-4bd8-eb66-2632909009ff"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_364/737368116.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m#Entrada\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mcelsius\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Digite quantos graus está fazendo:\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;31m#Processamento\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0mResultado\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mcelsius\u001b[0m \u001b[0;34m*\u001b[0m \u001b[0;36m9\u001b[0m\u001b[0;34m/\u001b[0m\u001b[0;36m5\u001b[0m \u001b[0;34m+\u001b[0m \u001b[0;36m32\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Operadores Aritiméticos\n",
+        "\n",
+        "\n",
+        "1. \"+\"Soma\n",
+        "2. \"-\"Subtração\n",
+        "3. \"*\"Multiplicação\n",
+        "4. \"/\"Divisão\n",
+        "5. \"//\"Divisão inteira\n",
+        "6. \"%\"Resto da divisão\n",
+        "7. \"**\"Pontência\n",
+        "\n",
+        "#Operadores Relacionais\n",
+        "1. \"==\" Igual\n",
+        "2. \"!=\" Diferente\n",
+        "3. \">\" Maior\n",
+        "4. \"<\" Menor\n",
+        "5. \">=\" Maior ou Igual\n",
+        "6. \"<=\" Menor ou Igual\n",
+        "\n",
+        "#Operadores Lógicos\n",
+        "1. and \"e\"\n",
+        "2. or \"ou\"\n",
+        "3. not \"não\"\n"
+      ],
+      "metadata": {
+        "id": "F75Uaggz62LQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Calculadora simples\n",
+        "#Entrada 2 Valores\n",
+        "#Processamento calcular usando operados aritiméticos\n",
+        "#Saída Mostrar Resultado\n",
+        "\n",
+        "#Entrada\n",
+        "\n",
+        "numero1 = int(input(\"digite um numero: \"))\n",
+        "numero2 = int(input(\"digite o segundo numero: \"))\n",
+        "\n",
+        "#Processamento\n",
+        "soma = numero1 + numero2\n",
+        "subtração = numero1 - numero2\n",
+        "multiplicação = numero1 * numero2\n",
+        "divisão = numero1 / numero2\n",
+        "div_inteira = numero1 // numero2\n",
+        "resto = numero1 % numero2\n",
+        "potência = numero1 ** numero2\n",
+        "\n",
+        "#Saída\n",
+        "\n",
+        "print(f\"O resultado da soma é :{soma}\")\n",
+        "print(f\"O resultado da subtraçãode é igual: {subtração}\")\n",
+        "print(f\"O resultado da multiplicação é igual: {multiplicação}\")\n",
+        "print(f\"O resultado da divisão é igual: {divisão}\")\n",
+        "print(f\"O resultado da divisão inteira é igual: {div_inteira}\")\n",
+        "print(f\"O resto da divisão é igual: {resto}\")\n",
+        "print(f\"O resultado da potência é igual: {potência}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Lr_T2lGg-CXc",
+        "outputId": "c237a12f-5404-4f31-8efc-8e155f4af821"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero: 10\n",
+            "digite o segundo numero: 5\n",
+            "O resultado da soma é :15\n",
+            "O resultado da subtraçãode é igual: 5\n",
+            "O resultado da multiplicação é igual: 50\n",
+            "O resultado da divisão é igual: 2.0\n",
+            "O resultado da divisão inteira é igual: 2\n",
+            "O resto da divisão é igual: 0\n",
+            "O resultado da potência é igual: 100000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "EXWcoTas9MsI"
+      }
+    }
+  ]
+}
